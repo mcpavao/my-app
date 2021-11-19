@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Logo from './assets/download.png'
-import Banner from './assets/Battlefield-2042-Background.jpeg'
 
 function Header() {
     return (
@@ -20,14 +19,6 @@ function Header() {
                     <a>Login</a>
                 </HeaderLogin>
             </ContainerNavBar>
-
-            <ContainerContent>
-                <img src={Banner}/>
-            </ContainerContent>
-            
-            <ContainerFooter>
-                <a>Mateus Pavao - 2021</a>
-            </ContainerFooter>
         </div>
     )
 }
@@ -82,18 +73,4 @@ const HeaderLogin = styled.div`
     color: white;
     margin-right: 30px;
     font-weight: 700;
-`
-const ContainerContent = styled.div`
-    background-color: #000C66;
-    height: 38.5rem;
-`
-
-const ContainerFooter = styled.div`
-    align-items: center;
-    background-color: #0000FF;
-    color: white;
-    display: flex;
-    font-size: 12px;
-    height: 60px;
-    justify-content: center;
 `
