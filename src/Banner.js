@@ -13,7 +13,7 @@ function Banner() {
 export default Banner
 
 const ContainerContent = styled.div`
-
+    {/*Test*/}
     @media (max-width: 480px) {
         img{
             position: absolute;

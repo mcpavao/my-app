@@ -33,6 +33,7 @@ const ContainerNavBar = styled.div`
     height: 64px;
     justify-content: space-between;
     position: relative;
+   
 `
 
 const HeaderLogo = styled.div`
@@ -50,7 +51,7 @@ const HeaderTab = styled.div`
     display: flex;
     font-size: 12px;
     margin-right: 20px;
-
+    
 `
 const NewsBottom = styled.div`
     margin-right: 40px;
