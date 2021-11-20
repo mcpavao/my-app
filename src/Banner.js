@@ -4,17 +4,22 @@ import MainBanner from './assets/Battlefield-2042-Background.jpeg'
 
 function Banner() {
     return (
-        <div>
-            <ContainerContent>
-                <img src={MainBanner}/>
-            </ContainerContent>
-        </div>
+        <ContainerContent>
+            <img src={MainBanner}/>
+        </ContainerContent>
     )
 }
 
 export default Banner
 
 const ContainerContent = styled.div`
-    background-color: #000C66;
-    height: 38.5rem;
+
+    @media (max-width: 480px) {
+        img{
+            position: absolute;
+            width: 100%;
+            height: 60%;
+            
+        }
+    }
 `
