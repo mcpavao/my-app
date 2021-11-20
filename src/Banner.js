@@ -18,8 +18,7 @@ const ContainerContent = styled.div`
         img{
             position: absolute;
             width: 100%;
-            height: 60%;
-            
+            height: 60%;   
         }
     }
 `
